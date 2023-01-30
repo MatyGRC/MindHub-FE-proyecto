@@ -1,0 +1,60 @@
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+header {
+    background-size: cover;
+    background-image: url(../assets/design1_image2.jpg);
+    height: 500px;
+    background-position: center center;
+    opacity: 0.75;
+    margin-top: 90px;
+}
+
+h1 {
+    font-size: 95px;
+    opacity: initial;
+    margin-top: 0;
+    position: relative;
+    bottom: 110px;
+}
+
+h2 {
+    text-align: center;
+    border: 1px solid;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: block;
+    position: relative;
+    bottom: 620px;
+    left: 1230px;
+}
+
+div {
+    margin-left: 50px;
+}
+
+.selected {
+    background: green;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+}
+
+.no-selected {
+    background: #82AAE3;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+}
