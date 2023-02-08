@@ -1,11 +1,16 @@
-.imagenes img{
+.imagenes img {
     width: 30%;
     height: 300px;
     margin-top: 20px;
-    transition: all 0.7s;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
+
 .imagenes img:hover {
-    width: 35%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
 }
 
 .selected {
@@ -39,6 +44,36 @@
 .game-footer {
     display: flex;
     justify-content: space-between;
+}
+
+.gameinf {
+    text-align: center;
+}
+
+.btn-submit {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #D9EDFF;
+  color: #339DFF;
+  font-size: 13px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 100px;
+  padding: 0 22px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #fff;
+  width: 170px;
+  margin-right: 40px;
+}
+
+.btn-submit:hover {
+  box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
+}
+
+form {
+    margin-top: 30px;
 }
 
 table, th, td {
